@@ -1,16 +1,36 @@
-# task_manager
+# Task Manager
 
-A new Flutter project.
+Este es un proyecto de gestión de tareas desarrollado en Flutter. La aplicación permite agregar, editar, eliminar y filtrar tareas con diferentes niveles de prioridad.
 
-## Getting Started
+## Requisitos previos
 
-This project is a starting point for a Flutter application.
+Antes de ejecutar el proyecto, asegúrate de tener los siguientes requisitos:
 
-A few resources to get you started if this is your first Flutter project:
+1. [Flutter](https://flutter.dev/docs/get-started/install) instalado en tu máquina.
+2. [Dart SDK](https://dart.dev/get-dart) incluido en el entorno de Flutter.
+3. Un editor de código compatible, como [Visual Studio Code](https://code.visualstudio.com/) o [Android Studio](https://developer.android.com/studio).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Instalación
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Sigue estos pasos para configurar el proyecto en tu entorno local:
+
+1. **Clonar el repositorio**
+
+   Clona el repositorio desde GitHub:
+
+   ```bash
+   git clone https://github.com/kenh93/dev011.git
+
+2. **Instalar dependencias**
+
+   Ejecuta el siguiente comando para instalar las dependencias del proyecto:
+
+   ```bash
+   flutter pub get
+
+3. **Ejecutar la aplicación**
+
+   Para ejecutar la aplicación en modo de depuración, utiliza:
+
+   ```bash
+   flutter run
