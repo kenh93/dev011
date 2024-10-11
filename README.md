@@ -21,14 +21,22 @@ Sigue estos pasos para configurar el proyecto en tu entorno local:
    ```bash
    git clone https://github.com/kenh93/dev011.git
 
-2. **Instalar dependencias**
+2. **Cambiar de rama**
+
+   Cambiar a la rama feature/dev011:
+
+   ```bash
+   git checkout feature/dev011
+
+
+3. **Instalar dependencias**
 
    Ejecuta el siguiente comando para instalar las dependencias del proyecto:
 
    ```bash
    flutter pub get
 
-3. **Ejecutar la aplicación**
+4. **Ejecutar la aplicación**
 
    Para ejecutar la aplicación en modo de depuración, utiliza:
 
