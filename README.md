@@ -35,8 +35,12 @@ Sigue estos pasos para configurar el proyecto en tu entorno local:
 
    ```bash
    flutter pub get
+   
+4. **Seleccione el dispositivo**
 
-4. **Ejecutar la aplicación**
+   Antes de ejecutar la aplicación seleccione su dispositivo fisico o emulador.
+   
+5. **Ejecutar la aplicación**
 
    Para ejecutar la aplicación en modo de depuración, utiliza:
 
