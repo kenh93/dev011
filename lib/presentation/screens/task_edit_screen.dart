@@ -29,7 +29,9 @@ class TaskEditScreenState extends State<TaskEditScreen> {
       _isEditMode = true;
       _title = widget.task!.title;
       _description = widget.task!.description;
-      _priority = widget.task!.priority;
+      _priority = _priorities.contains(widget.task!.priority) ? widget.task!.priority : 'Baja';
+    }else{
+      _priority = 'Baja';
     }
   }
   
@@ -157,7 +159,7 @@ class TaskEditScreenState extends State<TaskEditScreen> {
 
   Widget _buildPriorityDropdown() {
     return DropdownButtonFormField<String>(
-      value: _priority,
+      value: _priority.isNotEmpty ? _priority : 'Baja',
       decoration: InputDecoration(
         labelText: 'Prioridad',
         filled: true,
